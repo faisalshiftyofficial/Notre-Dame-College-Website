@@ -1,0 +1,18 @@
+.Principal{
+    color:rgb(13, 109, 165);
+    margin-left: 5cm;
+    
+ 
+}
+.Message{
+    color:rgba(114, 102, 102, 0.945);
+    margin-right: 10cm;
+    
+}
+.notice::-webkit-scrollbar{
+    display: none;
+}
+.notice {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }

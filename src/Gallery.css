@@ -1,0 +1,28 @@
+.Gallery{
+    
+    animation-name: animate;
+
+    animation-direction: alternate-reverse;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+@keyframes animate {
+    0%{
+        background-image: url(https://ndc.edu.bd/wp-content/uploads/2019/08/slide5.jpg);
+    }
+    25%{
+        background-image: url(https://ndc.edu.bd/wp-content/uploads/2019/08/slide8.jpg);
+    }
+    50%{
+        background-image: url(https://ndc.edu.bd/wp-content/uploads/2019/08/slide9.jpg);
+    }
+    100%{
+        background-image: url(https://ndc.edu.bd/wp-content/uploads/2021/03/IMG_9195-1024x768.jpg);
+    }
+    
+    
+    
+}
